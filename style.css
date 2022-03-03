@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards .row{
+    margin-top: 50px;
+    padding: 1%;
+    height: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    background-color: beige;
+}
+
+.latest .card{
+    background-color: rgb(214, 244, 255);
+}
+
+.offcanvas-body{
+    /* background: linear-gradient(white,lightgreen); */
+    background-color: whitesmoke;
+}
+
+.offcanvas-body a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    font-size: larger;
+}
+
+.offcanvas-body a:hover{
+    color: black;
+    font-weight: 700;
+}
+
+#insideout{
+    width: 100%;
+}
+
+.mobile img{
+    width: 1.5rem;
+}
+
+.profiles img{
+    width: 1.5rem;
+    display: inline-flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    color: green;
+    font-weight: 900;
+}
+
+.menu{
+    display: none;
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.welcome .img{
+    display: none;
+}
+
+.apps{
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.headline h1{
+    text-decoration: overline underline;
+}
+
+.apps img{
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.contact h4{
+    color: green;
+}
+
+.social a img{
+    width: 1.5rem;
+}
+
+Form #img{
+    display: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .list{
+        display: none;
+    }
+    
+    .logo{
+        margin-top: 10%;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .menu a{
+        padding: 8px;
+        background-color: inherit;
+        color: blue;
+    }
+
+    .menu a:hover{
+        color: black;
+    }
+
+    .mobile div{
+        display: inline-flex;
+        margin-right: 50px;
+    }
+    
+    .list a{
+        display: inline;
+        margin-right: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    Form #img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .latest .card{
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+
+    .latest .card img{
+        height: 300px;
+    }
+
+} 
